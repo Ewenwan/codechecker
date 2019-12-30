@@ -28,6 +28,27 @@ macOS (OS X) development environment.
 
 ![Web interface showing list of analysed projects and bugs](images/demo.gif)
 
+# CodeChecker是一个基于LLVM/Clang的C/C++静态代码检查工具。
+
+Github链接：https://github.com/Ericsson/codechecker
+
+开发商：Ericsson（爱立信）
+
+# 功能特性
+
+    支持多种代码检查器，目前主要支持Clang Static Analyzer和Clang Tidy
+    可以高效地存储结果于数据库，例如PostgreSQL、SQLite等
+    自带Web应用程序，可以轻松查看已发现的代码缺陷
+    Filterable（可根据检查器名称、错误等级、文件路径等进行过滤）
+    Comparable（可与指定结果进行比对以查看已修复和新引入的错误）
+    支持增量检查（只检查增加或修改的代码文件并更新结果）
+    查看每次新引入的错误列表
+    通过修改配置文件或在源代码中添加注释抑制已知的假阳性结果
+    可与其他开发者共享测试结果，提供审查和评论系统
+    能够显示标准输出的分析结果
+    基于服务器-客户端通信，可方便地存储和查询测试结果
+    支持多种可视化前端，例如Web应用程序、命令行工具、Eclipse插件等
+
 
 # Main features
 
